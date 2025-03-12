@@ -1,4 +1,5 @@
 # ti5robot_ros2_dep
+此版本为手动编译，可以用在t170外骨骼版本的机器上。 禁止给普通型号t170使用。 
 ## 启动步骤
 ```bash
 source install/setup.bash

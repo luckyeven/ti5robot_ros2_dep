@@ -1,1 +1,19 @@
-/home/ti5robot/actions-runner/_work/ti5robot_ros2/ti5robot_ros2/t170/bringup/config/teleop_config.yaml
+teleop_twist_joy:
+  ros__parameters:
+    axis_linear:
+      x: 1  # Linear X (forward/backward)
+      y: 0  # Linear Y (left/right)
+    scale_linear:
+      x: 1.6
+      y: 0.0
+    axis_angular:
+      yaw: 3  # Angular Z (rotation)
+    scale_angular:
+      yaw: 0.5
+    enable_button: -1  # No deadman switch
+    buttons:
+      emergency_stop: [4, 0]  # Buttons 5 and 1 (index 4 and 0 in 0-based indexing)
+      start_control: 6       # Button 7 (index 6)
+      switch_mode: [3, -1]   # Button 4 (index 3), second button optional
+      walk_mode: 1           # Button 2 (index 1)
+      position_control: 2    # Button 3 (index 2)
