@@ -1,1 +1,3 @@
-/home/ti5robot/actions-runner/_work/ti5robot_ros2/ti5robot_ros2/build/ros2_control_t170/ament_cmake_environment_hooks/local_setup.dsv
+source;share/ros2_control_t170/environment/ament_prefix_path.sh
+source;share/ros2_control_t170/environment/library_path.sh
+source;share/ros2_control_t170/environment/path.sh

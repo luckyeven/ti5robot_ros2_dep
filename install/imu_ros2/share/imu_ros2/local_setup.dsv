@@ -1,1 +1,2 @@
-/home/ti5robot/actions-runner/_work/ti5robot_ros2/ti5robot_ros2/build/imu_ros2/ament_cmake_environment_hooks/local_setup.dsv
+source;share/imu_ros2/environment/ament_prefix_path.sh
+source;share/imu_ros2/environment/path.sh

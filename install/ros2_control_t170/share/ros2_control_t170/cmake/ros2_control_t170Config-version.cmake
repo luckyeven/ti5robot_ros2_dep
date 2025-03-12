@@ -1,1 +1,14 @@
-/home/ti5robot/actions-runner/_work/ti5robot_ros2/ti5robot_ros2/build/ros2_control_t170/ament_cmake_core/ros2_control_t170Config-version.cmake
+# generated from ament/cmake/core/templates/nameConfig-version.cmake.in
+set(PACKAGE_VERSION "0.0.0")
+
+set(PACKAGE_VERSION_EXACT False)
+set(PACKAGE_VERSION_COMPATIBLE False)
+
+if("${PACKAGE_FIND_VERSION}" VERSION_EQUAL "${PACKAGE_VERSION}")
+  set(PACKAGE_VERSION_EXACT True)
+  set(PACKAGE_VERSION_COMPATIBLE True)
+endif()
+
+if("${PACKAGE_FIND_VERSION}" VERSION_LESS "${PACKAGE_VERSION}")
+  set(PACKAGE_VERSION_COMPATIBLE True)
+endif()

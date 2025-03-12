@@ -1,1 +1,6 @@
-/home/ti5robot/actions-runner/_work/ti5robot_ros2/ti5robot_ros2/ahrs_imu_ros2/src/forsense_imu/config/hipnuc_config.yaml
+IMU_publisher:
+    ros__parameters:
+        serial_port: "/dev/ttyUSB0"
+        baud_rate: 460800
+        frame_id: "base_link"
+        imu_topic: "/imu/data"
